@@ -2,7 +2,7 @@ class PhotosController < ApplicationController
 	 before_action :authenticate_user!
 
 	def photo_params
-		params.require(:photo).permits(:caption, :picture)
+		params.require(:photo).permit(:caption, :picture)
 	end
 
 	def save
