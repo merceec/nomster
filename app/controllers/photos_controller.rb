@@ -7,4 +7,5 @@ class PhotosController < ApplicationController
 
 	def save
 		require :photo
+	end
 end
