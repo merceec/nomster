@@ -84,4 +84,4 @@ gem "geocoder"
 
 gem "figaro"
 
-gem 'carrierwave','~> 0.11.2'
+gem 'carrierwave','~> 1.3.2'
